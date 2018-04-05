@@ -1,6 +1,5 @@
 class Book
 
-  
   attr_accessor :title, :authors, :description
 
   @@all = []
@@ -28,11 +27,13 @@ class Book
     puts "#{self.formatted_title} by #{self.formatted_authors}"
   end
 
+  #class
   def self.display_self
     self
   end
 
-  def display_self
+  #instance
+  def show_self
     self
   end
 
